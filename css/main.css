@@ -1,0 +1,108 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+.icons-sprite, .icons-bear, .icons-cat, .icons-chat, .icons-dog, .icons-fox, .icons-gem, .icons-grad, .icons-hashtag, .icons-heart, .icons-hippo, .icons-kanye, .icons-kaola, .icons-money, .icons-monkey, .icons-music, .icons-panda, .icons-penguin, .icons-play, .icons-racoon, .icons-trophy {
+  background-image: url('../img/icons-sa672835dd1.png');
+  background-repeat: no-repeat;
+}
+
+.icons-bear {
+  background-position: 0 0;
+}
+
+.icons-cat {
+  background-position: 0 -150px;
+}
+
+.icons-chat {
+  background-position: 0 -300px;
+}
+
+.icons-dog {
+  background-position: 0 -450px;
+}
+
+.icons-fox {
+  background-position: 0 -600px;
+}
+
+.icons-gem {
+  background-position: 0 -750px;
+}
+
+.icons-grad {
+  background-position: 0 -900px;
+}
+
+.icons-hashtag {
+  background-position: 0 -1050px;
+}
+
+.icons-heart {
+  background-position: 0 -1200px;
+}
+
+.icons-hippo {
+  background-position: 0 -1350px;
+}
+
+.icons-kanye {
+  background-position: 0 -1500px;
+}
+
+.icons-kaola {
+  background-position: 0 -1650px;
+}
+
+.icons-money {
+  background-position: 0 -1800px;
+}
+
+.icons-monkey {
+  background-position: 0 -1950px;
+}
+
+.icons-music {
+  background-position: 0 -2100px;
+}
+
+.icons-panda {
+  background-position: 0 -2250px;
+}
+
+.icons-penguin {
+  background-position: 0 -2400px;
+}
+
+.icons-play {
+  background-position: 0 -2550px;
+}
+
+.icons-racoon {
+  background-position: 0 -2700px;
+}
+
+.icons-trophy {
+  background-position: 0 -2850px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}

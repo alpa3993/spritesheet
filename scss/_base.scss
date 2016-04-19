@@ -1,0 +1,22 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+@import 'icons/*.png';
+@include all-icons-sprites;
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+		a {
+			display: inline-block;
+			width: 150px;
+			height: 150px;
+			span {
+				position: absolute;
+				top: -9999em;
+				left: -9999em;
+			}//span
+		}//a
+}//li
